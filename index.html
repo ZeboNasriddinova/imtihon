@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="topbar-icon">
+            <img src="images/icons/AirNags (4).zip" alt="">
+            <h2>AirNags</h2>
+        </div>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">shop</a>
+            <a href="#">Product</a>
+            <a href="#">Pages</a>
+
+        </div>
+        <div class="icons">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAwRJREFUWEftl1moT1EUxn+3RJEHEiFkyPBsehDJUBTJlCGR6cHNm0QSD5IhT8qY6cFQhiKSlMylDHkhQ0RJyphQZNqf1tG2nXv2Pv9/3ftX1ts5e69vf2etvdb6Th01ZnU1xod/mlBbYAowAegFdLLoPgceACeAY8DbaqKeEqGuwEpgDtA8cthnYDewDnhWCbEYoakuGvsTiIRnfwKmAafKkioitAxYHwBeBY4Dl4H7ttYXGAZMBgYF+xcB28uQaojQDOCgB3QPmAtci4CPcXdrp0tbF9v3AxjniJ5OJZVHqCdwx92DFgZy20VkJPAmEbQjcMF9UG/b/x4Q5qsU/zxCqpRJ5vwIGAy8TgHz9nQGbgId7N02oD4FIyTUD7jrOQ50Ib+RApSzR6k6ae+/AopcNEohIZX3GgPR5Z1YIZnM7bqrtAH2MA/YG8MLCV0BhpjTTOBQDCCyvgTYZHsOWysodAkJPXFf0c08VCkVNTfvxP5eym+5FOq5FKGPQEvzUJV9iQFE1tt41fkO0HMpQh+AVubRGtBzNSYMlb3sJdA+Bham7KENTvn1saEZwyha96v2outPw2NgIaFzwAhzWmCDMoZRtK7RsdU2JPWikNBSd4c2GsAZYGw1bIDzXlQWA1tieCEh6RylLbOhgFpBJTYaOGuOKhZhv4gB5Y2OIybE5PvUGlu0wwYHSbypKWYibjmwIUZG63mEetj4qGa4KlUqCtljQJc7qYWkyg/NNynG2FyT/JD+yZqrCKlQ9F7zLGpFAm0FsDZAuGQCTfdKOlr++nqVswRaQ534KDAd+BZjFJOwisouoFkMKFiX0Jf8GOW91yyT8PtehBUjJN/uDmQVMCuBmNKi0l5tHVqqU5HJ7IC7U7OLSKUQysDa2bQeD+jiq4JEQJdWQ1liTvLVbxvC32ckMhz9lSx0pCVv/7IyhEpm7ff2PFJ7gPlNRShrLzssMhmP3FHSGBHyA6GUKl0y/Uyqkv+wxiakwzeb8MtmZpMTKryLTRGh/4QqbQ+//GouZT8BH3WCJWJo578AAAAASUVORK5CYII=" />
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAu5JREFUWEftl0uoTlEUx38XeZQQN5JQiJS4kkheUwPvESEMxFXK20AhA3mFgVchAwOPkpAxA4+St5RQXonyTISE/f9aR7t7v3P2PueewZes+uruu9de63fWXnuvteuoMamrMR7+KaDewApgGDDEIn0fuA3sAl4UiX7RCE0DjjrHnVOcfgLmA2fyQhUBUlR2RjpaDuyO1K2o5QUaClwH2pqTK8A64J6NNb8VGG3jH8Bw4EEsVB6gNsANQE4lJ4DZwK8mzlrb3Ez7v3JqJPAzBioP0ATgohn9APQDPqY46QY88XJsDHC1bKAFwBEzetptUxKBND9nXUQn2+Rc4FjZQGssP2R3G7A24ECJrwMgWRV7EPJs2VTvGOs4Tw8A+RGaApwrO0J9gGdm9D0wEHiX4qQ78AjoZPO9gFdlA8neBWCSGT4JzKpyyloBp4AZpnfey6UgU54tkzGVi4culzqY5WuAcusuoGthMLDdu4e+AoOAl0ESU8gLpGXLgD2RDpYC+yJ1K2pFgLQuVMt0P82LTWQfuChQsn1JtW+wm1glRDeztu11nsgkui0BKuIvuKYIkBJaEdGvR4qHNxapW674fgtSeAqxQDrKK91dsgjonyP3ftt9tN8OgsaZEgM0wOrQqJCxwPxla9oeZ+mFgOYAh4B2nhGdILWqd4C3Kcbrvda2i6fz3aCOp0FlAWlr5Li9LVazpWZM/XKsyL66xi1eU6ecUg+u9qSZpAEpZxTipPN7anePolJEdABUkPvaYtkeBzTLqTQgRUJfJVGnN8LKQxGYZI1eJzcBfaxkNbCjqcE0IFXmnqa80Z2qTS0h8dZudh+43sbPvYj9VakG1NVrK9QvKyk/lwSkdkRPpEQ6ukh98W1XAxoPXDIllYKkqS+JqfICUVcgGWu5mhmhRmCvaRx0NWlxWSRm5zCw0P5eAhwIRUg5s8GUlDsalymZ9qtt2UT33NFPomdP8vQpCyrTfuimLgsi2s5/oFCoai5CfwApwn0lj4icUgAAAABJRU5ErkJggg==" />
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAaRJREFUWEft1z9IVlEcxvGP2NLWJAhN0lQINSnO4igGjQ0NUUJbJJiGZZBBf7ZAKRqaXERsjLZoaRMschGXaHDJWTC8Jw7xYu/t3HO9gcY908s9z/v8vvc5v3M5p8cxGz3HjMd/BXQBN3AR4XcYn7GOJWzWSb9uQg9xj9KE93EXT3Oh6gC9wK2KheYL3YOK2l+yXKDreNVR4ANm8CU+G8QTDHdoJvC2KlQOUG/RM9/RF82XcRU/DxULulWMx+dfcf5fAI3ifTTexQB+lBTqxxZOx/kAFMCSIyeh23geHddwOeH+DmNRcw1vkjSZPTRX6EOThrGA2USBx5iOmrAjHzUNFHbL/WhaZffk6kt32VmsYKjKGx1B86n4kF7Bt06Pbj10p84HrSbYFJ6lgDqjrlmn8t/+WPpuCZWtfW5P1PJpgYrF/GvSOQlVboyEsAVKJdkm1CaUSiA13/ZQm1AqgdT8ye+hSSymXrOh+Zt4mTqghSPsBs40VLTMZqe4QF6Kd73fmrJr0Dm8xghONQy2h4/FWTrcgrcPe+fcyxrm6m7XAqViPgB1f3wlsqx25QAAAABJRU5ErkJggg==" />
+        </div>
+    </div>
+    <div class="header">
+        <div class="text">
+            <h1>AirNags</h1>
+        <p>Keep your everyday style chic and on-trend with <br> our selection 20+ styles to choose from.</p>
+        <h5>See Collection</h5>
+        </div>
+    </div>
+    <div class="new">
+        <h2>New Arrivals</h2>
+        <div class="box">
+            <div class="box-item1">
+            
+            <button>Aero Dive</button>
+            </div>
+            <div class="box-item2">
+            
+            <button>AirKan II</button>
+            </div>
+            <div class="box-item3">
+            <button>Halo+</button>
+            </div>
+           <div class="box-item4">
+            <button>Trakna</button>
+        </div>
+    </div>
+    <div class="run">
+        <div class="text1">
+            <h2>RUN SMART+</h2>
+        <p>Phosfluor escently engage worldwide methodologies <br> with web-enabled process-centric technology.</p>
+        <h5>SHOP NOW</h5>
+        </div>
+    </div>
+    <div class="sale">
+        <div class="best">
+            <h6>Best Sellers</h6>
+            <h6>New Arrivals</h6>
+            <h6>Sale</h6>
+        </div>
+        <div class="image">
+            <div class="sale-i">
+                <img  src="images/5.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img src="images/6.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img src="images/7.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img src="images/8.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img src="images/9.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img src="images/10.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img  src="images/11.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+            <div class="sale-i">
+                <img src="images/12.png" alt="">
+            <p>AirForce One</p>
+            <p>$110.00</p>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
